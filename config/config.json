@@ -1,0 +1,33 @@
+{
+  "settings": {
+    "locale": "LOCALE",
+    "expandGroups": "EXPANDGROUPS",
+    "autoSave": "AUTOSAVE",
+    "autoSaveInterval": "AUTOSAVEINTERVAL",
+    "idleMinutes": "IDLEMINUTES",
+    "colorfulIcons": "COLORFULICONS",
+    "skipHttpsWarning": "SKIPHTTPSWARNING",
+    "demoOpened": "DEMOOPENED",
+
+    "canOpenDemo": "CANOPENDEMO",
+    "canOpenSettings": "CANOPENSETTINGS",
+    "canCreate": "CANCREATE",
+    "canImportXml": "CANIMPORTXML",
+
+    "dropbox": "DROPBOX",
+    "gdrive": "GDRIVE",
+    "onedrive": "ONEDRIVE",
+
+    "webdav": "WEBDAV",
+    "webdavSaveMethod": "WEBDAVSAVEMETHOD"
+  },
+  "files": [
+    { 
+      "storage": "webdav",
+      "name": "KEEPASS_NAME",
+      "path": "KEEPASS_URL",
+      "options": { "user": "webdav", "password": "secret"}
+    }
+  ],
+  "showOnlyFilesFromConfig": true
+}
