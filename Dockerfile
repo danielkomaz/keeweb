@@ -20,5 +20,5 @@ ENV LOCALE="en" \
     KEEPASS_NAME="KEEPASS" \
     KEEPASS_URL="localhost"
 
-COPY ./config/config.json /var/www/html/config.json
+
 COPY ./scripts/21-keepass.sh $START_PATH
